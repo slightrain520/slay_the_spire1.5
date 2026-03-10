@@ -1,0 +1,68 @@
+# ─── 构建产物 ──────────────────────────────────────────────
+build/
+out/
+cmake-build-*/
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+
+# ─── CMake 自动生成 ───────────────────────────────────────
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+build.ninja
+compile_commands.json
+install_manifest.txt
+CTestTestfile.cmake
+_deps/
+
+# ─── Qt/MOC 自动生成 ──────────────────────────────────────
+*_autogen/
+moc_*.cpp
+moc_*.cpp.d
+qrc_*.cpp
+ui_*.h
+*.qm
+
+# ─── macOS 系统文件 ───────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# ─── CLion / JetBrains IDE ────────────────────────────────
+.idea/
+*.iml
+cmake-build-debug/
+cmake-build-release/
+
+# ─── VS Code ──────────────────────────────────────────────
+.vscode/
+
+# ─── Xcode ────────────────────────────────────────────────
+*.xcodeproj/
+*.xcworkspace/
+DerivedData/
+
+# ─── 编译器临时文件 ───────────────────────────────────────
+*.d
+*.pch
+*.gch
+
+# ─── 调试符号 / 崩溃转储 ──────────────────────────────────
+*.dSYM/
+*.pdb
+*.ilk
+*.exp
+
+# ─── 备份与临时文件 ───────────────────────────────────────
+*.bak
+*.tmp
+*.swp
+*~
